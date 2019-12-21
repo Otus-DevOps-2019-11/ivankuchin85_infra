@@ -11,3 +11,6 @@ Host someinternalhost
 
 чтобы добавить алиас в систему нужно ввести команду alias someinternalhost='ssh someinternalhost'
 тогда можно будет подключаться просто набрав someinternalhost в шелле
+
+bastion_IP = 35.228.86.247
+someinternalhost_IP = 10.166.0.10
