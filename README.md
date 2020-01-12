@@ -2,7 +2,7 @@
 #ivankuchin85 Infra repository
 
 Необходимо создать в каталоге ~/.ssh (или отредактировать) файл config, добавив в него строки вида
-`Host someinternalhost`
+`Host someinternalhost`\
     `HostName someinternalhost`
     `ProxyJump appuser@35.228.86.247`
     `User appuser`
@@ -13,7 +13,7 @@
 чтобы добавить алиас в систему нужно ввести команду alias someinternalhost='ssh someinternalhost'
 тогда можно будет подключаться просто набрав someinternalhost в шелле
 
-`bastion_IP = 35.228.86.247`
+`bastion_IP = 35.228.86.247`\n
 `someinternalhost_IP = 10.166.0.10`
 
 
