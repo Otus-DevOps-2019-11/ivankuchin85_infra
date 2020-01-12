@@ -14,10 +14,12 @@
 тогда можно будет подключаться просто набрав someinternalhost в шелле
 
 `bastion_IP = 35.228.86.247`
+
 `someinternalhost_IP = 10.166.0.10`
 
 
 `testapp_IP = 34.90.65.86`
+
 `testapp_port = 9292`
 
 # ДЗ packer
