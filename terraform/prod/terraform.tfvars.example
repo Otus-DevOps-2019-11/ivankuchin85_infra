@@ -1,0 +1,5 @@
+project              = "hale-boulevard-262519"
+public_key_path      = "~/.ssh/appuser.pub"
+disk_image           = "reddit-base"
+provisioners_ssh_key = "~/.ssh/appuser"
+project_zone         = "europe-west1-b"
