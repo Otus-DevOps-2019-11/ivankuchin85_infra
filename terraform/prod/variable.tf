@@ -18,7 +18,17 @@ variable provisioners_ssh_key {
   description = "private SSH key for provisioners"
 }
 
-variable project_zone {
+variable zone {
   description = "project zone"
   default     = "europe-west1-b"
+}
+
+variable app_disk_image {
+  description = "Disk image for reddit app"
+  default = "reddit-app-base"
+}
+
+variable db_disk_image {
+  description = "Disk image for reddit db"
+  default = "reddit-db-base"
 }
