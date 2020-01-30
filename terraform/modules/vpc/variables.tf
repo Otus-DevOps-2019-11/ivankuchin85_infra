@@ -20,3 +20,8 @@ variable rule_name {
   description = "name for firewall rule"
   default = "default-allow-ssh"
 }
+
+variable reddit_tags {
+  description = "tags for firewall rule"
+  default = ["app"]
+}

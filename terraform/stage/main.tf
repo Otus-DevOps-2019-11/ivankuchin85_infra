@@ -37,4 +37,5 @@ module "vpc" {
   zone            = var.zone
   db_disk_image   = var.db_disk_image
   rule_name = "default-allow-ssh"
+  reddit_tags = ["reddit-app"]
 }
