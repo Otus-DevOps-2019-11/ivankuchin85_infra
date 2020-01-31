@@ -3,5 +3,5 @@
   hosts: app
   become: true
   roles:
-    - app 
+    - app
     - jdauphant.nginx
